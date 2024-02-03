@@ -2,8 +2,9 @@
     font-family: Montserrat;
     color: white;
     font-weight: 600;
-    font-size: 55px;
+    font-size: 70px;
     margin-top: 120px;
+    margin-bottom: 0;
 }
 
 .header{
@@ -28,4 +29,11 @@
 }
 .header p:hover{
     color: black;
+}
+
+.home-subtitle{
+    color: red;
+    font-size: 32px;
+    margin-top: 25px;
+    font-weight: 400;
 }
