@@ -1,0 +1,8 @@
+.x-axis{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 600px;
+    left: 100px;
+    top: 100px;
+}
