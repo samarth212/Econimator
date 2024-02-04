@@ -1,0 +1,17 @@
+.bg{
+    position: fixed;
+    top: 80px;
+    right: 0;
+    left:0;
+    bottom: 0;
+    background-color: rgb(200, 200, 200);
+}
+
+.y-axis{
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 600px;
+    left: 100px;
+    top: 100px;
+}
