@@ -37,12 +37,12 @@
     margin-right: 80px;
 }
 
-.home-button img{
+.home-img{
     width: 380px;
     border-radius: 40px;
     transition: transform 1s;
 }
-.home-button img:hover{
+.home-img:hover{
     transform: rotate(180deg);
 }
 
