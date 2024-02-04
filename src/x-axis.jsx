@@ -21,4 +21,35 @@ export default function XAxis(){
         }
         return ticks
     }
+
+    return(
+    <div className="x-axis-inputs">
+      <div>
+        <label>
+          Number of Ticks:
+          <input
+            type="number"
+            name="numTicks"
+            value={xAxisProps.numTicks}
+            onChange={handleInputChange}
+          />
+        </label>
+        <label>
+          Tick Increment:
+          <input
+            type="number"
+            name="tickIncrement"
+            value={xAxisProps.tickIncrement}
+            onChange={handleInputChange}
+          />
+        </label>
+      </div>
+
+      {renderXTicks().map((tick) => (
+        <div key={tick} className="tick">
+          {tick}
+        </div>
+      ))}
+    </div>
+    )
 }
