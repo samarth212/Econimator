@@ -19,35 +19,7 @@
     transition: color 0.5s;
 }
 
-.header{
-    background-color: rgb(200, 200, 200);
-    height: 80px;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    transition: background-color 0.5s;
-}
-.header:hover{
-    background-color: rgb(40, 40, 40)
-}
 
-
-
-.header p{
-    color: red;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 30px;
-    margin-right: 30px;
-    cursor: pointer;
-    transition: color 0.3s;
-}
-.header p:hover{
-    color: black;
-}
 
 .home-subtitle{
     color: red;
