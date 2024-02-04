@@ -1,5 +1,11 @@
 export default function Create(){
     return(
-        <p>Create</p>
+        <>
+            <div className="bg"></div>
+            <div className="y-axis"></div>
+            <div className="x-axis"></div>
+
+        
+        </>
     )
 }
