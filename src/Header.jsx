@@ -5,11 +5,11 @@ import React from 'react';
 export default function Header(){
 
     return(
-        <div className="header">
-            <p>About</p>
-            <p>Home</p>
-            <p>Create</p>
-        </div>
+        <nav className="header">
+            <a href="/about">About</a>
+            <a href="/">Home</a>
+            <a href="/create">Create</a>
+        </nav>
     )
    
 

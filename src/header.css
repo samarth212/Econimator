@@ -12,7 +12,7 @@
 .header:hover{
     background-color: rgb(40, 40, 40)
 }
-.header p{
+.header a{
     color: red;
     font-size: 20px;
     font-weight: 500;
@@ -20,7 +20,8 @@
     margin-right: 30px;
     cursor: pointer;
     transition: color 0.3s;
+    text-decoration: none;
 }
-.header p:hover{
+.header a:hover{
     color: black;
 }
