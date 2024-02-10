@@ -1,8 +1,6 @@
-.x-axis{
-    position: absolute;
-    background-color: white;
-    width: 5px;
-    height: 600px;
-    left: 100px;
-    top: 100px;
+
+
+.hello{
+    margin-top: 600px;
+    color: white;
 }

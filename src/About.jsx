@@ -1,5 +1,7 @@
+import './about.css'
+
 export default function About(){
     return(
-        <p>About</p>
+        <p className="text">About</p>
     )
 }
