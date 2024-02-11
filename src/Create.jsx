@@ -1,6 +1,7 @@
 import './create.css'
 
 import XAxis from './XAxis.jsx'
+import YAxis from './YAxis.jsx'
 
 export default function Create(){
     return(
@@ -8,7 +9,7 @@ export default function Create(){
             <div className="create-bg">
 
                 <XAxis></XAxis>
-                
+                <YAxis></YAxis>
 
 
 
