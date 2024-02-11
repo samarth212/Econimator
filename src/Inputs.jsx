@@ -1,10 +1,12 @@
 export default function Input(){
     return(
         <>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="text"/>
-            <input type="number"/>
+            <div className="title-inputs">
+                <input type="text" placeholder="Graph Title"/>
+                <input type="text" placeholder="X-Axis Title"/>
+                <input type="text" placeholder="Y-Axis Title"/>
+            </div>
+            
 
         
         </>
