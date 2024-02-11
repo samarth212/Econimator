@@ -19,7 +19,7 @@ export default function YAxis(){
                 {
                     tickPositions.map((position) => (
                         <div key={position} className="y-tick" style={{ bottom: `${position}px` }}></div>
-
+                        
                     ))
                 }
 
