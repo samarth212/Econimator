@@ -4,7 +4,7 @@ import { useState } from 'react'
 
 export default function XAxis(){
 
-    const numTicks = 5
+    const numTicks = 10
     const spacing = 800/(numTicks-1)
 
     let tickPositions = [];
@@ -16,7 +16,12 @@ export default function XAxis(){
     return(
         <>
             <div className="xaxis-line">
-                <div className="x-tick"></div>
+                {
+                    tickPositions.map((position) => (
+                        <div key={position} className="x-tick" style={{ left: `${position}px` }}></div>
+
+                    ))
+                }
 
 
             </div>
