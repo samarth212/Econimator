@@ -9,7 +9,7 @@ export default function Input(){
                     <input type="text" placeholder="X-Axis Title"/>
                     <input type="text" placeholder="Y-Axis Title"/>
                 </div>
-
+                
                 
             </div>
             

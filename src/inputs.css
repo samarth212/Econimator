@@ -1,7 +1,11 @@
+.inputs{
+    margin-left: 1100px;
+}
+
+
 .title-inputs{
     display: flex;
     flex-direction: column;
-    
 }
 
 .title-inputs input{
