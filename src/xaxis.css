@@ -1,6 +1,18 @@
+.xaxis-line{
+    position: absolute;
+    background-color: black;
+    width: 800px;
+    height: 3px;
+    bottom: 50px;
+    left: 100px;
+    
+}
 
-
-.hello{
-    margin-top: 600px;
-    color: white;
+.x-tick{
+    position: absolute;
+    background-color: black;
+    width: 2px;
+    height: 20px;
+    bottom: 43px;
+    left: 100px; 
 }

@@ -1,11 +1,29 @@
 import './create.css'
 
-import XAxis from './x-axis.jsx'
+import XAxis from './XAxis.jsx'
 
 export default function Create(){
     return(
         <>
-            <XAxis></XAxis>
+            <div className="create-bg">
+
+                <XAxis></XAxis>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
         </>
     )
 }
