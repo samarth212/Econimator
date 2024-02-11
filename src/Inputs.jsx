@@ -1,3 +1,5 @@
+import './inputs.css'
+
 export default function Input(){
     return(
         <>
