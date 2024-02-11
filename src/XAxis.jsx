@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function XAxis(){
 
     const numTicks = 10
-    const spacing = 800/(numTicks-1)
+    const spacing = 700/(numTicks-1)
 
     let tickPositions = [];
 

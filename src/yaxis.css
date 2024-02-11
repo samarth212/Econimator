@@ -2,8 +2,8 @@
     position: absolute;
     background-color: black;
     width: 3px;
-    height: 800px;
-    bottom: 50px;
+    height: 700px;
+    bottom: 100px;
     left: 100px;
     
 }
@@ -11,7 +11,7 @@
 .y-tick{
     position: absolute;
     background-color: black;
-    width: 800px;
+    width: 700px;
     height: 1px;
     left: 0px;
     opacity: 0.2;
