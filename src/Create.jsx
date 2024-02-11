@@ -11,7 +11,7 @@ export default function Create(){
 
                 <XAxis></XAxis>
                 <YAxis></YAxis>
-
+                <Input></Input>
 
 
 
